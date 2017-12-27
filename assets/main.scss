@@ -1,0 +1,79 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+$fa-font-path: "fonts/font-awesome/";
+@import 'font-awesome';
+
+$brand-color: orangered;
+
+.wrapper {
+  max-width: -webkit-calc(#{$content-width} * 1.425 - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} * 1.425 - (#{$spacing-unit} * 2));
+}
+
+.site-title {
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.site-subtitle {
+	float: left;
+	font-size: 22px;
+	color: #777;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.site-header {
+	border-top-color: #{$brand-color};
+}
+
+a:visited {
+	color: #aa0400;	
+}
+
+a, a:hover, .fa-bath:hover {
+	color: #{$brand-color};
+}
+
+.page-heading {
+	font-size: 42px;
+	letter-spacing: -1px;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+
+
+/**
+ * Tables - taken from pre release change set
+ */
+$table-text-align: left !default;
+
+table {
+  margin-bottom: $spacing-unit;
+  width: 100%;
+  text-align: $table-text-align;
+  color: lighten($text-color, 18%);
+  border-collapse: collapse;
+  border: 1px solid $grey-color-light;
+  tr {
+    &:nth-child(even) {
+      background-color: lighten(#f0f0fb, 3%);
+    }
+  }
+  th, td {
+    padding: ($spacing-unit / 12) ($spacing-unit / 3);
+  }
+  th {
+    background-color: #f0f0fb;
+    border: 1px solid darken($grey-color-light, 4%);
+    border-bottom-color: darken($grey-color-light, 12%);
+  }
+  td {
+    border: 1px solid $grey-color-light;
+  }
+}
+
