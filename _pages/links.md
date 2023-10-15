@@ -11,4 +11,12 @@ permalink: /links/
 
 ### Origins
 
+### Coding
+
+* [https://rootsdev.org/](https://rootsdev.org/) - google group with some interesting leads as well as github account with some potential things to explore
+* [https://fhiso.org/](https://fhiso.org/) - Family History Information Standards Organisation
+
+### Gedcom X
+
+* https://www.familysearch.org/developers/docs/guides/getting-started
 

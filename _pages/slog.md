@@ -10,5 +10,4 @@ Notes on progress.
 
 Inevitably, my current enthusiasm will start to wane over the coming months after I've scraped the low hanging fruit of telephone directories and New York passenger lists. This study log is to help keep track of what I've been doing so I can remind myself where I got to when renewed energies take hold.
 
-It sounds like a slog, it isn't.
 

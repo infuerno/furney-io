@@ -1,2 +1,3 @@
 # cd $(bundle show minima)
-JEKYLL_ENV=production jekyll build
+# when requested for surge project directory ensure the _site subdirectory is used
+JEKYLL_ENV=production bundle exec jekyll build && surge

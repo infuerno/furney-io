@@ -28,14 +28,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-font-awesome-sass
 
-font-awesome:
-  assets: true
-
-# From: http://damonbauer.me/organizing-jekyll-pages/
-include: ["_pages"]
-permalink: /:title/
+# From: https://web.archive.org/web/20180101102441/http://damonbauer.me/organizing-jekyll-pages/
+include: ["_pages"] # this ensures the _pages folder is included when the site is built
+permalink: /:title/ # this keeps dates out of URLs (recommended for clean URLs)
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
